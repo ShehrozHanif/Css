@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Class Selector</title>
+    <style>
+        .ai {
+            color: rgb(255, 0, 0);
+        }
+        .bcc {
+            color: blue;
+        }
+        .iot{
+            color: rgb(255, 0, 128);
+        }
+        p.cnc{
+            color: lawngreen;
+        }
+        li.cnc{
+            color: darkorange;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Universal Selector</h1>
+    <p>PIAIC Offer The Following Courses</p>
+    <div>
+        <p class="ai">1. Artificial Intelligence</p>
+    </div>
+
+    <div>
+        <p class="bcc">2. Blockchain</p>
+    </div>
+
+    <div>
+        <p class="iot">3. Internet Of Things</p>
+    </div>
+
+    <div>
+        <p class="cnc">4. Cloud Native Computing</p>
+    </div>
+
+    <p>Below is the list of students</p>
+
+    <table border="2" width="800">
+        <tr>
+            <th>Seriol No</th>
+            <th>Name</th>
+            <th>Roll No</th>
+            <th>Courses</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Ali</td>
+            <td>123012</td>
+            <td>
+                <ol>
+                    <li class="ai" >Artificial Intelligence</li>
+                    <li class="bcc">Blockchain</li>
+                    <li class="iot">Internet Of Things</li>
+                    <li class="cnc">Cloud Computing</li>
+                </ol>
+            </td>
+        </tr>
+
+        <TR>
+            <td>2</td>
+            <td>Shayan</td>
+            <td>12345</td>
+            <td>
+                <ol>
+                    <li class="ai">Artificial Intelligence</li>
+                    <li class="iot">Internet Of Things</li>
+                </ol>
+            </td>
+        </TR>
+
+        <tr>
+            <td>3</td>
+            <td>Shahrukh</td>
+            <td>12341</td>
+            <td>
+                <ol>
+                    <p><li class="cnc">Cloud Native Computing</li></p>
+                    <p><li class="iot">Internet Of Things</li></p>
+                </ol>
+            </td>
+        </tr>
+
+        <TR>
+            <TD>4</TD>
+            <td>Dilawar</td>
+            <td>12458</td>
+            <td>
+                <ol>
+                    <li class="ai">Artificial Intelligence</li>
+                </ol>
+            </td>
+        </TR>
+
+        <tr>
+            <td>5</td>
+            <td>Jibran</td>
+            <td>98562</td>
+            <td>
+                <ol>
+                    <li class="bcc">Blockchain</li>
+                    <li class="cnc">Cloud Native Computing</li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
